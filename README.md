@@ -1,6 +1,15 @@
 # DumpIdItem
 
-DumpIdItem exports mappings from legacy numeric item IDs to Axolotl-PM items. It scans IDs from `-214` through `511` and metadata values from `0` through `50` when the server starts.
+Export legacy item ID mappings from Axolotl-PM at server startup
+
+[![CI](https://github.com/NhanAZ-Plugins/DumpIdItem/actions/workflows/build.yml/badge.svg)](https://github.com/NhanAZ-Plugins/DumpIdItem/actions/workflows/build.yml)
+[![Latest release](https://img.shields.io/github/v/release/NhanAZ-Plugins/DumpIdItem)](https://github.com/NhanAZ-Plugins/DumpIdItem/releases/latest)
+[![License](https://img.shields.io/github/license/NhanAZ-Plugins/DumpIdItem)](https://github.com/NhanAZ-Plugins/DumpIdItem/blob/master/LICENSE)
+[![Discord](https://img.shields.io/discord/986553214889517088?label=Discord&logo=discord&logoColor=white&color=5865F2)](https://discord.gg/j2X83ujT6c)
+
+## Overview
+
+This is an experimental repository. Review its documented limitations before using it on a live server.
 
 ## Requirements and compatibility
 
