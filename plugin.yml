@@ -3,6 +3,7 @@ name: DumpIdItem
 version: 0.0.2
 main: NhanAZ\DumpIdItem\Main
 api: 5.0.0
+authors: ["NhanAZ"]
 src-namespace-prefix: NhanAZ\DumpIdItem
 website: https://github.com/NhanAZ-Plugins/DumpIdItem
 description: "Export legacy item ID mappings for Axolotl-PM"
