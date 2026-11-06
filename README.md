@@ -30,7 +30,7 @@ The two files in the server data folder are replaced on each start. Keep copies 
 
 ## Development and validation
 
-The [build workflow](.github/workflows/build.yml) tests distinct output records against pinned Axolotl-PM source revisions. It uses [DevTools](https://github.com/NhanAZ/DevTools) to run PHPStan at maximum level, build the PHAR and inspect the artifact. Exact tested revisions and results are available in [GitHub Actions](https://github.com/NhanAZ-Plugins/DumpIdItem/actions).
+The [build workflow](.github/workflows/build.yml) tests distinct output records against pinned Axolotl-PM source revisions. It uses [DevTools](https://github.com/AxolotlBucketLabs/DevTools) to run PHPStan at maximum level, build the PHAR and inspect the artifact. Exact tested revisions and results are available in [GitHub Actions](https://github.com/NhanAZ-Plugins/DumpIdItem/actions).
 
 The output fixture checks duplicate handling. A runtime smoke test of a release PHAR checks the full startup scan. Results from one server version should not be treated as a compatibility claim for every Axolotl-PM 5.x release.
 
